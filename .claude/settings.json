@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -n \"WS2812_LED_COUNT\\\\|RGBLED_NUM\\\\|WS2812_COLOR_BIT_N\" /home/vinicius/vial-qmk/platforms/chibios/drivers/ws2812_pwm.c | head -30)",
+      "Read(//home/vinicius/vial-qmk/platforms/chibios/drivers/**)",
+      "Read(//home/vinicius/vial-qmk/drivers/led/**)",
+      "Bash(grep -rn \"RGB_MATRIX_WS2812\" /home/vinicius/vial-qmk/builddefs/ /home/vinicius/vial-qmk/quantum/ 2>/dev/null | grep -v \".pyc\" | head -20)",
+      "Read(//home/vinicius/vial-qmk/builddefs/**)",
+      "Bash(grep -rn \"RGB_MATRIX_WS2812\\\\|rgb_matrix.*driver.*ws2812\" /home/vinicius/vial-qmk/lib/python/qmk/ 2>/dev/null | grep -v \".pyc\" | head -20)",
+      "Read(//home/vinicius/vial-qmk/lib/python/qmk/**)",
+      "Bash(grep -rn \"RGB_MATRIX_WS2812\" /home/vinicius/vial-qmk/quantum/rgb_matrix/ 2>/dev/null | head -20)",
+      "Read(//home/vinicius/vial-qmk/quantum/rgb_matrix/**)",
+      "Bash(grep -rn \"RGB_MATRIX_WS2812\" /home/vinicius/vial-qmk/ --include=\"*.mk\" --include=\"*.py\" 2>/dev/null | grep -v \".pyc\" | head -20)",
+      "Read(//home/vinicius/vial-qmk/**)"
+    ]
+  }
+}

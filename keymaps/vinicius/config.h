@@ -1,0 +1,16 @@
+#pragma once
+
+#define FLOW_TAP_TERM 60
+#define CHORDAL_HOLD
+#undef TAPPING_TERM
+#define TAPPING_TERM 150
+
+#define PERMISSIVE_HOLD
+
+#define COMBO_COUNT 3
+#define TAPPING_TERM_PER_KEY
+
+#define BOOTMAGIC_ROW 4
+#define BOOTMAGIC_COLUMN 0
+
+#define TAPPING_TOGGLE 1
